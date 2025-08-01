@@ -1,0 +1,65 @@
+# robots.txt - Blokada wszystkich botów indeksujących
+
+User-agent: *
+Disallow: /
+Crawl-delay: 86400
+
+# Dodatkowa blokada dla najbardziej znanych botów
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: WhatsApp
+Disallow: /
+
+User-agent: applebot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Zablokuj dostęp do wszystkich plików i katalogów
+Disallow: /admin/
+Disallow: /client/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /api/
+Disallow: /assets/
+Disallow: /*.php
+Disallow: /*.sql
+Disallow: /*.log
+
+# Sitemap - nie udostępniamy
+Sitemap:
